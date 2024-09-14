@@ -1,6 +1,6 @@
 * {
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 html,
@@ -12,7 +12,26 @@ body {
 .main-cont {
     height: 100%;
     width: 100%;
-    background-color: beige;
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.588);
+    color: white;
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(6, 150, 239);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
