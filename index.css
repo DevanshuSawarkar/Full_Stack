@@ -1,0 +1,22 @@
+* {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-cont {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
