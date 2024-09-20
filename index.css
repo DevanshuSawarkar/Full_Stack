@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 html,
@@ -10,53 +11,66 @@ body {
     height: 100%;
 }
 
-
 .main-cont {
+
     width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(140, 203, 245);
+    display: flex;
+
+}
+
+.left-cont {
+    width: 90%;
     height: 100%;
     background-color: bisque;
+    margin-right: 5px;
+    padding: 10px;
+
 }
 
-.nav-bar{
+.top-sec {
     width: 100%;
-    height: 8%;
-    background-color: aqua;
-}
-
-.main-body-cont{
-    width: 100%;
-    padding: 20px;
-    height: 92%;
-}
-
-.banner-img{
-    width: 100%;
-    height: 30%;
-}
-
-.card-container{
-    border: 1px solid black;
-    height: 70%;
-    width: 100%;
+    height: 60%;
+    background-color: blueviolet;
+    margin-bottom: 5px;
     display: flex;
-    flex-direction: row;
-    padding: 20px;
+    padding: 10px;
 }
 
-
-.card{
-    width: 33%;
+.top-left-cont {
+    width: 60%;
     height: 100%;
-    padding: 20px;
-    background-color: chocolate;
-    margin-right: 8px;
-    display: flex;
-    justify-content: center;
+    background-color: darkgray;
+    margin-right: 5px;
+
 }
 
-.profile-icon{
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 50%;
+.top-right-cont {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(91, 81, 81);
+    padding: 10px;
+
+}
+
+.top-right-child {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(173, 43, 43);
+}
+
+.bottom-sec {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(189, 149, 225);
+
+}
+
+.right-cont {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(126, 92, 51);
+
 }
