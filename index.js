@@ -1,14 +1,20 @@
-let userInEl = document.getElementById("userIn");
-let randomNum = Math.ceil(Math.random() * 100);
+let api = "https://gorest.co.in/public/v2/users";
 
-function onChangeUserIn() {
-    let userVal = parseInt(userInEl.value);
-    
-    if(userVal > randomNum) {
-        console.log("Its too high!!!");
-    } else if(userVal < randomNum) {
-        console.log("Its too low!!!");
-    } else {
-        console.log("You Won!!!");
-    }
+// fetch(api)
+// .then((res)=>{ //callback
+//     return res.json();
+// })
+// .then((data)=>{
+//     console.log(data);
+// })
+// .catch((error)=>{
+//     console.log(error);
+// })
+
+const fetchUserDetails = async()=>{
+    let response = await fetch(api);
+    let data = await response.json();
+    console.log(data);
 }
+
+fetchUserDetails();

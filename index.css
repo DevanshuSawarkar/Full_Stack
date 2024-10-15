@@ -9,11 +9,4 @@ body {
     height: 100%;
 }
 
-.main-cont {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-}
+.main-cont {}
